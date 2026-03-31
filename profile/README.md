@@ -14,6 +14,8 @@ Ask2App is a decision-based app generator. Instead of making you drag-and-drop o
 
 Based on your answers, Ask2App generates a working application with **full source code**.
 
+## MISSION STATEMENT IS TO MAKE ALL SOFTWARE FREE!
+
 ---
 
 ## How It Works
