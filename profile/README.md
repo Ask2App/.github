@@ -3,13 +3,13 @@
 # 🚀 Ask2App
 ### *Make All Software Free. Ask. Answer. App Delivered.*
 
-**Generate complete, production-grade, deployable applications from structured decisions — delivered with 100% full source code you own.**
+**Generate complete, production-grade, deployable applications from structured decisions — delivered with full source code under permissive, royalty-free licensing.**
 
 [![Website](https://img.shields.io/badge/Website-ask2app.com-00DC82?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ask2app.com)
 [![Platform](https://img.shields.io/badge/.NET%2010-Aspire%20%7C%20Blazor-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Templates](https://img.shields.io/badge/Templates-170%2B%20Production%20Ready-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://ask2app.com)
 [![Stacks](https://img.shields.io/badge/Client%20Stacks-10%20Supported-F59E0B?style=for-the-badge)](https://ask2app.com)
-[![Source Code](https://img.shields.io/badge/Ownership-100%25%20Customer%20Owned-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://ask2app.com)
+[![License](https://img.shields.io/badge/License-MIT%20%2F%20Royalty--Free-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/Ask2App/Information/blob/main/LICENSE)
 [![Cloud](https://img.shields.io/badge/Cloud-Azure%20Container%20Apps-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
 
 <p align="center">
@@ -17,6 +17,7 @@
   <a href="#-how-it-works"><b>⚡ How It Works</b></a> •
   <a href="#-supported-technology-stacks"><b>🧱 Supported Stacks</b></a> •
   <a href="#-flagship-reference-applications"><b>🌟 Flagship Applications</b></a> •
+  <a href="#-licensing-assets--open-source-compliance"><b>⚖️ Licensing & Freedom</b></a> •
   <a href="#-enterprise--commercial-services"><b>🏢 Enterprise Services</b></a> •
   <a href="#-contact--consulting"><b>📫 Contact</b></a>
 </p>
@@ -34,8 +35,8 @@ Traditional low-code tools trap your business in closed ecosystems, monthly runt
 Instead of forcing you into cumbersome drag-and-drop builders or fragile prompt engineering, Ask2App guides you through high-level architectural and business decisions — or reads your database schema via CSV or visual design — and delivers a complete, cleanly structured, compilable software solution directly to you as a ZIP file.
 
 > [!IMPORTANT]
-> **Zero Vendor Lock-in & 100% Source Code Ownership**  
-> The generator is free to use, and **all source code it produces is 100% customer-owned**. You get clean C#, TypeScript, Python, or Delphi code with standard project structures, Docker containers, automated database migrations, and CI/CD pipelines.
+> **Zero Vendor Lock-in & Permissive Royalty-Free Licensing**  
+> The generator is free to use, and **all generated applications ship under permissive, royalty-free open licenses (such as MIT)**. You receive full, uncompiled source code with zero subscription seat costs, zero runtime royalties, and unrestricted rights to inspect, modify, self-host, and commercialize.
 
 ---
 
@@ -45,7 +46,7 @@ Instead of forcing you into cumbersome drag-and-drop builders or fragile prompt 
 ┌────────────────────────┐      ┌────────────────────────┐      ┌────────────────────────┐
 │        1. WE ASK       │      │      2. YOU ANSWER     │      │    3. APP DELIVERED    │
 │  Guided Questions      │ ───► │  Architectural Choices │ ───► │  Complete Solution ZIP │
-│  & Schema Modeling     │      │  & Feature Toggles     │      │  + 100% Source Code    │
+│  & Schema Modeling     │      │  & Feature Toggles     │      │  + Permissive Source   │
 └────────────────────────┘      └────────────────────────┘      └────────────────────────┘
 ```
 
@@ -132,6 +133,16 @@ Ask2App maintains over **20+ production-grade reference solutions** showcasing r
 
 ---
 
+## ⚖️ Licensing, Assets & Open Source Compliance
+
+To ensure absolute legal clarity and remove any ambiguity across all business, utility, and interactive templates:
+
+* **Permissive Open Source Licensing**: All generated solution scaffolds and application codebases are provided under standard, permissive terms such as the **[MIT License](https://github.com/Ask2App/Information/blob/main/LICENSE)**. You receive full commercial rights to build, adapt, host, and distribute without license fees or runtime royalties.
+* **Standard Open Frameworks**: Solutions rely on well-maintained, industry-standard open-source ecosystems (.NET 10, ASP.NET Core, Blazor, EF Core, React, Tailwind, MudBlazor) adhering to MIT, Apache 2.0, or BSD licenses.
+* **Clean & Royalty-Free Assets**: All default templates, media assets, sample graphics, and game/arcade demonstrations use royalty-free resources, Creative Commons Zero (CC0), or Unsplash-licensed media, ensuring clean provenance with zero proprietary asset encumbrances.
+
+---
+
 ## 🛡️ The "Verified Before Delivery" Quality Guarantee
 
 A common flaw with AI coding assistants is generating code that superficially compiles but crashes at runtime.
@@ -145,7 +156,7 @@ At **Ask2App**, our automated quality pipeline does not stop at compilation:
 
 ## 🏢 Enterprise & Commercial Services
 
-Ask2App's business model is transparent: **the generator and the generated code are free**. 
+Ask2App's business model is transparent: **the generator and the generated code are free under permissive open licenses**. 
 
 We generate revenue by delivering high-value engineering and infrastructure services to startups, enterprises, and modernization teams:
 
@@ -189,6 +200,6 @@ Have an enterprise app to build, a legacy system to migrate, or need tailored co
 ---
 
 **We ask. You answer. App delivered.**  
-*Accelerating Global Software Creation with 100% Free, Customer-Owned Code.*
+*Accelerating Global Software Creation with Free, Royalty-Free Source Code.*
 
 </div>
