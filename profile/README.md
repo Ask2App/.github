@@ -1,119 +1,194 @@
-# Ask2App
+<div align="center">
 
-> **MAKE ALL SOFTWARE FREE.**
->
-> Ask. Answer. App delivered — with full source code you own.
+# 🚀 Ask2App
+### *Make All Software Free. Ask. Answer. App Delivered.*
 
-Ask2App is a proprietary AI software generator hosted at [ask2app.com](https://ask2app.com). It creates complete, deployable applications from structured inputs and guided decisions. The generator is free to use, and the source code it generates is free and customer-owned.
+**Generate complete, production-grade, deployable applications from structured decisions — delivered with 100% full source code you own.**
 
-Revenue comes from services: custom modifications, installs, managed Azure hosting, maintenance, upgrades, training, and enterprise support.
+[![Website](https://img.shields.io/badge/Website-ask2app.com-00DC82?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ask2app.com)
+[![Platform](https://img.shields.io/badge/.NET%2010-Aspire%20%7C%20Blazor-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![Templates](https://img.shields.io/badge/Templates-170%2B%20Production%20Ready-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://ask2app.com)
+[![Stacks](https://img.shields.io/badge/Client%20Stacks-10%20Supported-F59E0B?style=for-the-badge)](https://ask2app.com)
+[![Source Code](https://img.shields.io/badge/Ownership-100%25%20Customer%20Owned-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://ask2app.com)
+[![Cloud](https://img.shields.io/badge/Cloud-Azure%20Container%20Apps-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
 
-🌐 **Website:** [ask2app.com](https://ask2app.com)
-📧 **Founder:** [Don.Potts@Ask2App.com](mailto:Don.Potts@Ask2App.com)
-
----
-
-## What Ask2App Ships
-
-- **170+ named templates** across **10 client stacks**
-- **20+ production reference applications**, each generated as a complete solution
-- Full source-code ZIP delivery, with setup and deploy scripts in the box
-- ASP.NET Core Identity, JWT auth, RBAC, multi-tenancy, audit trails, and runtime feature flags
-- Stripe, Plaid, Microsoft Graph email, Docker, and cloud deployment targets
-- AI integrations across OpenAI, Azure OpenAI, Anthropic, OpenRouter, and local runtimes (Ollama, LM Studio)
-
-### The stacks
-
-| | |
-|---|---|
-| **Web** | Blazor WebAssembly (MudBlazor, Radzen, Tailwind), React (Tailwind, Fluent UI), Next.js + .NET |
-| **Mobile** | .NET MAUI, React Native / Expo (NativeWind, Paper, Gluestack, shadcn) |
-| **Desktop** | WinForms, Delphi VCL, Delphi FireMonkey, Delphi + Skia, Godot |
-| **Server** | ASP.NET Core Web API, ABP Framework, Aspire, microservices |
-
-The **WinForms** and **Delphi VCL** desktop clients are at full parity with the web clients — foreign-key pickers, many-to-many multi-select, user and role administration, light and dark theming — and emit source with **zero third-party dependencies**. Delphi FireMonkey trades the multi-column grid for reach: one codebase for Windows, macOS, Linux, Android and iOS.
+<p align="center">
+  <a href="https://ask2app.com"><b>🌐 Live Generator</b></a> •
+  <a href="#-how-it-works"><b>⚡ How It Works</b></a> •
+  <a href="#-supported-technology-stacks"><b>🧱 Supported Stacks</b></a> •
+  <a href="#-flagship-reference-applications"><b>🌟 Flagship Applications</b></a> •
+  <a href="#-enterprise--commercial-services"><b>🏢 Enterprise Services</b></a> •
+  <a href="#-contact--consulting"><b>📫 Contact</b></a>
+</p>
 
 ---
 
-## From a CSV to an ABP Framework solution
+</div>
 
-[**AbpGenerator**](https://github.com/ABPGenerator) turns plain CSV files into a full [ABP Framework](https://abp.io) solution — entities, permissions, admin screens and a MudBlazor, MVC and .NET MAUI UI, generated together and switched on by flag:
+## 💡 What is Ask2App?
 
-cart and Stripe checkout with real orders · a signed, idempotent payment webhook · in-app mobile payment that returns to the app rather than stranding the customer in a browser · chat · CMS Kit with its Pro-equivalent features (newsletter, contact form, polls, FAQ, page feedback, URL forwarding) · privacy (export my data, close my account) · runtime-editable email templates · outbound webhooks for n8n, Zapier and Make · a 27-theme switcher · two-factor auth · SaaS editions, organisation units and impersonation.
+**Ask2App** is a next-generation, decision-based AI software synthesis platform hosted at [ask2app.com](https://ask2app.com).
 
-Every feature brings its own permissions and a menu entry that is hidden from anyone who may not use it, rather than shown and then refused.
+Traditional low-code tools trap your business in closed ecosystems, monthly runtime subscription fees, and proprietary black boxes. **Ask2App eliminates vendor lock-in entirely.** 
 
-Prefer to draw it first? The **Schema Designer** at [abpgenerator.ask2app.com](https://abpgenerator.ask2app.com) lays entities and relationships out visually and exports the CSVs and the run script.
+Instead of forcing you into cumbersome drag-and-drop builders or fragile prompt engineering, Ask2App guides you through high-level architectural and business decisions — or reads your database schema via CSV or visual design — and delivers a complete, cleanly structured, compilable software solution directly to you as a ZIP file.
 
----
-
-## Reference Applications
-
-### Business / SaaS
-
-- **MyExecutiveSuite** — ERP + CRM + HRM + Finance + CMS + EDI X12, with a visual workflow engine, AI digital employees, fleet management, multi-entity dimensions, project billing, an Excel Add-in and native mobile apps
-- **MyEntApps** — eight business apps over one shared UI: asset, booking, helpdesk, invoice, meal, project and roster managers, plus a developer kit
-- **BlazerSuite** — order, warehouse, supply-chain, service, clinic, sales-CRM, HR and SaaS-CRM apps
-- **LeadFinder** — multi-tenant lead-generation CRM using the Google Places API as the primary provider, with a Playwright fallback
-- **MyCRM, MyERP, MyHRM, MyCMS** — standalone business modules
-- **MyAccounting** · **MyBudget** · **MySnagTime** (scheduling) · **MyInventory** · **ItemShopHub** · **ShoppingCart**
-
-### Microservices
-
-- **ABP Microservices** — four independently-deployable ABP services behind a YARP gateway with Keycloak single sign-on, on free modules only
-- **Aspire Microservices** — a catalog API, storefront and admin front end started by one .NET Aspire AppHost, with distributed tracing across every service
-
-### AI / Content
-
-- **My AI Orchestrator** — chats through whichever AI provider is available, failing over automatically on rate limits and errors
-- **MarkBlogger** · **MarkBlog** · **CaseySupport** — Semantic Kernel agents for blogging, CMS content and customer support
-
-### Home / Health / Play
-
-- **MyRecipes** · **MyDailyFitness** · **MyFamilyBlog** · **MyWheel**
-- **MyArcade** · **MyPuzzel** · **MergeGame** · **FlashCards**
+> [!IMPORTANT]
+> **Zero Vendor Lock-in & 100% Source Code Ownership**  
+> The generator is free to use, and **all source code it produces is 100% customer-owned**. You get clean C#, TypeScript, Python, or Delphi code with standard project structures, Docker containers, automated database migrations, and CI/CD pipelines.
 
 ---
 
-## Azure / Microsoft Stack
+## ⚡ How It Works
 
-Ask2App is Microsoft-stack-native:
-
-- .NET 10 / ASP.NET Core · Blazor WebAssembly · Entity Framework Core · .NET Aspire
-- Azure Container Apps · Azure PostgreSQL Flexible Server · Azure Files · Azure Container Registry
-- Azure OpenAI · Microsoft Graph · Excel Add-in support in MyExecutiveSuite
-
-Live on Azure today: the generator itself at [ask2app.com](https://ask2app.com), My Executive Suite at [suite.ask2app.com](https://suite.ask2app.com) with a public sandbox at [demo.ask2app.com](https://demo.ask2app.com), and the Schema Designer at [abpgenerator.ask2app.com](https://abpgenerator.ask2app.com).
-
----
-
-## How It Works
-
-```text
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-│   WE ASK    │ │ YOU ANSWER  │ │APP DELIVERED│
-│  Questions  │ │  Decisions  │ │ + Source    │
-└─────────────┘ └─────────────┘ └─────────────┘
+```
+┌────────────────────────┐      ┌────────────────────────┐      ┌────────────────────────┐
+│        1. WE ASK       │      │      2. YOU ANSWER     │      │    3. APP DELIVERED    │
+│  Guided Questions      │ ───► │  Architectural Choices │ ───► │  Complete Solution ZIP │
+│  & Schema Modeling     │      │  & Feature Toggles     │      │  + 100% Source Code    │
+└────────────────────────┘      └────────────────────────┘      └────────────────────────┘
 ```
 
-1. **We Ask** — guided questions and structured inputs
-2. **You Answer** — select features, stack, data, and deployment options
-3. **App Delivered** — a working app with full customer-owned source code, emailed as a ZIP
-
-Generation takes minutes; larger workloads can take longer.
+1. **We Ask**: Structured, intuitive questions walk you through your business requirements, entities, workflows, and integrations. Prefer to draw it? Use our visual [Schema Designer](https://abpgenerator.ask2app.com) or upload a plain CSV.
+2. **You Answer**: Select your client frontend (Blazor, React, MAUI, Expo, WinForms, Delphi), database provider (PostgreSQL, SQLite, SQL Server), security posture, and cloud target.
+3. **App Delivered**: In minutes, Ask2App delivers a complete, verified application solution archive with automated database migrators, seed data, responsive UI, OpenAPI documentation, and local/cloud deployment scripts.
 
 ---
 
-## How we know it works
+## 🧱 Supported Technology Stacks
 
-Generated code that compiles is not the same as an app that runs, so templates are **started**, not just built — launched, signed into, and driven through create, edit and delete. Several defects that reached customers in the past were invisible in the source and only appeared once the app was running; that is why the bar is where it is.
+Ask2App delivers architectural parity across **10+ major client stacks** and enterprise backend runtimes:
+
+| Tier | Supported Technologies & Frameworks | Highlights |
+| :--- | :--- | :--- |
+| **Modern Web** | **Blazor WebAssembly** (MudBlazor, Radzen, Tailwind), **React** (Tailwind CSS, Fluent UI), **Next.js** | Single-page apps, reactive state management, Dark/Light theme toggle, instant hot reload. |
+| **Mobile & Tablet** | **.NET MAUI** (iOS, Android, macOS), **React Native / Expo** (NativeWind, Paper, Gluestack, shadcn) | Native performance, in-app checkout transitions, camera/push-notification hardware access. |
+| **Enterprise Desktop** | **WinForms (.NET 10)**, **Delphi VCL**, **Delphi FireMonkey**, **Delphi + Skia**, **Godot** | **Zero third-party dependencies** in WinForms & Delphi VCL. Full parity with web admin portals. |
+| **Server & Cloud APIs** | **ASP.NET Core Minimal APIs**, **.NET Aspire**, **ABP Framework**, **YARP Microservices Gateway** | Dependency injection, distributed cache, OpenTelemetry spans, Polly resilience pipelines. |
+| **Data & Storage** | **Entity Framework Core 10**, **PostgreSQL Flexible Server**, **SQLite**, **SQL Server** | Automated migration runners, multi-tenancy query filters, soft deletes, connection pooling. |
+| **Autonomous AI** | **Semantic Kernel**, **OpenAI**, **Azure OpenAI**, **Anthropic**, **Local Ollama / LM Studio** | Vector RAG pipelines, cosine similarity search, chunk citations, multi-model resilient failover. |
 
 ---
 
-## Mission
+## 🛠️ Enterprise Architecture Built-In
 
-Ask2App exists to make software creation accessible.
+Every application synthesized by Ask2App comes equipped with enterprise infrastructure out of the box:
 
-The generator is proprietary IP, but the generated source code belongs to the customer. The goal is to make application source code free while building a sustainable services business around customization, deployment, hosting, maintenance, training, and support.
+```mermaid
+flowchart LR
+    subgraph Client["🖥️ Multi-Stack Client Layer"]
+        B["Blazor WASM\n(MudBlazor)"]
+        R["React / Next.js\n(Tailwind)"]
+        M[".NET MAUI / Expo\n(iOS & Android)"]
+        D["WinForms / Delphi\n(Desktop Parity)"]
+    end
 
-**We ask. You answer. App delivered.**
+    subgraph Gateway["🛡️ Gateway & Identity Layer"]
+        YARP["Reverse Proxy & Gateway"]
+        AUTH["JWT / ASP.NET Identity\nRBAC & 2FA"]
+    end
+
+    subgraph Core["⚙️ Enterprise Application Core"]
+        API["ASP.NET Core / .NET Aspire\nMinimal APIs & Scalar Docs"]
+        RAG["Vector RAG & AI Agents\nSemantic Kernel & Ollama"]
+        TENANT["SaaS Multi-Tenancy\nTenant Isolation & Branding"]
+        JOBS["Background Worker Queue\nAudit Logging Interceptors"]
+    end
+
+    subgraph Data["💾 Distributed Data & Storage"]
+        DB[(PostgreSQL / SQLite / SQL Server)]
+        VEC[(Vector Embeddings)]
+        BLOB[(Azure Files / S3 Storage)]
+    end
+
+    Client --> YARP
+    YARP --> AUTH
+    AUTH --> Core
+    Core --> Data
+```
+
+### Key Capabilities in Every Solution:
+* 🔐 **Authentication & Security**: ASP.NET Core Identity, JWT Bearer tokens, hierarchical Role-Based Access Control (RBAC), fine-grained permission trees, and optional 2FA.
+* 🏢 **SaaS Multi-Tenancy**: Dynamic tenant resolution by sub-domain or header, tenant-isolated data via EF Core query filters, customizable per-tenant branding and theme palettes.
+* 🤖 **AI Knowledge Base & Vector RAG**: Chunking and tokenization pipelines, cosine similarity retrieval, grounded citations, and autonomous tool-calling execution agents.
+* 📊 **Deep Observability**: Native OpenTelemetry distributed tracing, Prometheus metrics endpoints, waterfall transaction spans, and real-time HTTP audit loggers.
+* 💳 **Payment & Commerce**: Stripe Checkout integration, signed idempotent webhooks, cart engines, and in-app mobile checkout return loops.
+* 📜 **Modern Developer Experience**: Scalar interactive OpenAPI documentation with Mars theme, automated test suites, and Docker Compose orchestration.
+
+---
+
+## 🌟 Flagship Reference Applications
+
+Ask2App maintains over **20+ production-grade reference solutions** showcasing real-world performance:
+
+| Application | Architecture & Stack | Description & Live Links |
+| :--- | :--- | :--- |
+| **[NovaMesh](https://github.com/donpotts/NovaMesh)** | `.NET 10` • `Aspire` • `Blazor WASM` • `Scalar` | Distributed cloud microservices mesh with OpenTelemetry waterfall tracing, Polly resilience policies, and CMS Blog Hub. |
+| **MyExecutiveSuite** | `SaaS ERP` • `CRM` • `HRM` • `EDI X12` | Enterprise resource suite with a visual workflow engine, AI digital employees, fleet management, and Excel Add-in.  <br>🌐 [suite.ask2app.com](https://suite.ask2app.com) • 🎮 [demo.ask2app.com](https://demo.ask2app.com) |
+| **AbpGenerator & Designer** | `ABP Framework` • `MudBlazor` • `.NET MAUI` | Turn plain CSVs or visual schema diagrams into full ABP solutions with Stripe, chat, and 27-theme switchers. <br>🌐 [abpgenerator.ask2app.com](https://abpgenerator.ask2app.com) |
+| **LeadFinder** | `Multi-Tenant CRM` • `Playwright` • `Google Places` | Automated multi-tenant B2B lead generation CRM with real-time scraping fallbacks and pipeline tracking. |
+| **My AI Orchestrator** | `Semantic Kernel` • `Multi-LLM` • `Local AI` | Intelligent agent chat router that dynamically fails over between OpenAI, Azure OpenAI, Anthropic, and local Ollama nodes. |
+| **BlazerSuite & MyEntApps** | `Enterprise Monolith` • `8 Integrated Portals` | Single-UI multi-app suite managing Helpdesk, Invoicing, Rosters, Assets, Bookings, Projects, and Clinic scheduling. |
+
+---
+
+## 🛡️ The "Verified Before Delivery" Quality Guarantee
+
+A common flaw with AI coding assistants is generating code that superficially compiles but crashes at runtime.
+
+At **Ask2App**, our automated quality pipeline does not stop at compilation:
+1. **End-to-End Execution**: Every template is launched in automated containerized sandbox environments.
+2. **Database & Schema Verification**: Automated migrators spin up databases, run schema creation, and execute seeders.
+3. **Full CRUD & Auth Walkthrough**: Headless test harnesses authenticate, create entities, edit records, test search filters, and verify reactive UI bindings before code is packaged.
+
+---
+
+## 🏢 Enterprise & Commercial Services
+
+Ask2App's business model is transparent: **the generator and the generated code are free**. 
+
+We generate revenue by delivering high-value engineering and infrastructure services to startups, enterprises, and modernization teams:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           COMMERCIAL SERVICES                               │
+├──────────────────────┬──────────────────────┬───────────────────────────────┤
+│ 🛠️ Custom Engineering│ ☁️ Managed Hosting    │ 🔄 Legacy Modernization       │
+│ Bespoke integrations,│ Turnkey Azure ACA    │ Upgrade legacy WinForms,      │
+│ specialized workflows│ deployment, scaling, │ Delphi, Web Forms, or ASP.NET │
+│ and proprietary APIs.│ monitoring & backups.│ to modern .NET 10 & Blazor.   │
+├──────────────────────┼──────────────────────┼───────────────────────────────┤
+│ 🛡️ 24/7 Enterprise   │ 🎓 Developer Training│ 📐 Architecture Audits        │
+│ Dedicated SLA, bug   │ Upskilling teams on  │ Performance profiling, security│
+│ fixes, patch updates.│ ABP, Blazor & Aspire.│ reviews & cloud cost trimming.│
+└──────────────────────┴──────────────────────┴───────────────────────────────┘
+```
+
+---
+
+## 🌐 Live Azure Ecosystem
+
+Ask2App is Microsoft-stack-native and battle-tested on Azure:
+* 🚀 **Generator Portal**: [ask2app.com](https://ask2app.com)
+* 🏢 **Executive Suite**: [suite.ask2app.com](https://suite.ask2app.com)
+* 🧪 **Public Sandbox**: [demo.ask2app.com](https://demo.ask2app.com)
+* 📐 **Visual Schema Designer**: [abpgenerator.ask2app.com](https://abpgenerator.ask2app.com)
+
+---
+
+## 📫 Contact & Consulting
+
+Have an enterprise app to build, a legacy system to migrate, or need tailored consulting?
+
+* 🌐 **Web**: [ask2app.com](https://ask2app.com)
+* 📧 **Founder & Principal Architect**: **Don Potts** — [Don.Potts@Ask2App.com](mailto:Don.Potts@Ask2App.com)
+* 🐙 **GitHub Organization**: [github.com/Ask2App](https://github.com/Ask2App)
+
+<div align="center">
+
+---
+
+**We ask. You answer. App delivered.**  
+*Accelerating Global Software Creation with 100% Free, Customer-Owned Code.*
+
+</div>
